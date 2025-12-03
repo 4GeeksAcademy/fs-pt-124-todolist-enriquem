@@ -9,3 +9,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background: rgba(167, 136, 80, 0.757);
+}
+h1{
+    padding-top: 3rem;
+}
+form{
+    border: 1px solid black;
+    width: 400px;
+    padding: 5px;
+    justify-self: center;
+}
+ul {
+    justify-items: center;
+    padding-left: 0px;
+}
+li{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li, li {
+    border: 1px solid black;
+    list-style: none;
+    width: 400px;
+    padding-left: 0px;
+    background: white;
+}
+.trashIcon {
+    border: none;
+    background: none;
+}
+
+input{
+    border: none;
+    width: 390px;
+}
+form{
+    background: white;
+}
+div{
+    background: rgb(122, 77, 77);
+}
+footer{
+    width: 400px;
+}
