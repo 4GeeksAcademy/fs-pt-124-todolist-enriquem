@@ -8,9 +8,9 @@ const ToDoCard = (props) => { // usar props para llamar los componentes hijos a 
     }
 
     return (
-        <li className="px-1">
+        <li className="liOfCard px-1">
             <span>{props.todo}</span>
-            <button className="trashIcon"><i className="fa-solid fa-trash-can" onClick={handleClick}></i></button>
+            <button className="trashIcon"><i className="trashCan fa-solid fa-trash-can" onClick={handleClick}></i></button>
         </li>
     )
 }

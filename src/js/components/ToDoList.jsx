@@ -22,18 +22,18 @@ const ToDoList = () => {
     return (
         <>
             <article className="container text-center">
-                <h1>My task list</h1>
+                <h1 className="">My task list</h1>
                 <form onSubmit={handleSubmit}>
                     <input required onChange={(e) => setTask(e.target.value)} value={task} type="text" placeholder="add new task!" />
                 </form>
-                <ul>
+                <ul className="">
                     {
                         tasks.map((el, i) => (
                             <ToDoCard index={i} todo={el} key={i} delete={handleDelete} />
                         ))
                     }
                 </ul>
-                <footer className="d-flex">
+                <footer className="pb-3">
                     {tasks.length} task left
                 </footer>
             </article>

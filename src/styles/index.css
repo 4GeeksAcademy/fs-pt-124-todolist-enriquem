@@ -10,10 +10,11 @@
 
 */
 body{
-    background: rgba(167, 136, 80, 0.757);
+    background-image: url(https://images.unsplash.com/photo-1506968430777-bf7784a87f23?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwZGUlMjBtYWRlcmF8ZW58MHx8MHx8fDA%3D);
 }
 h1{
     padding-top: 3rem;
+    color: white;
 }
 form{
     border: 1px solid black;
@@ -50,8 +51,22 @@ form{
     background: white;
 }
 div{
-    background: rgb(122, 77, 77);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
+    height: 40rem;
 }
 footer{
+    justify-self: center;
     width: 400px;
+    text-align: left;
+    color: white;
+
+}
+
+.trashCan {
+    opacity: 0;
+    color: red;
+}
+.liOfCard:hover .trashCan {
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
