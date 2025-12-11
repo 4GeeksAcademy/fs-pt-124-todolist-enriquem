@@ -13,5 +13,5 @@ const ToDoCard = (props) => { // usar props para llamar los componentes hijos a 
             <button className="trashIcon"><i className="trashCan fa-solid fa-trash-can" onClick={handleClick}></i></button>
         </li>
     )
-}
+} 
 export default ToDoCard
